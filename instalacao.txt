@@ -1,0 +1,39 @@
+Passo a Passo de Instalação
+Siga estas etapas para configurar e executar o projeto em sua máquina local:
+
+Pré-requisitos
+Antes de começar, verifique se você possui os seguintes pré-requisitos instalados em sua máquina:
+
+Node.js: Certifique-se de ter o ambiente Node.js instalado em sua máquina. Você pode fazer o download em nodejs.org.
+Configurando o Banco de Dados (MySQL)
+No Windows (usando XAMPP):
+Instale o XAMPP em apachefriends.org.
+
+Inicie o XAMPP e inicie o módulo MySQL.
+
+Abra o phpMyAdmin pelo painel de controle do XAMPP ou visite http://localhost/phpmyadmin em seu navegador.
+
+Crie um novo banco de dados com o nome oficina.
+
+No Linux (usando apt-get):
+Instale o MySQL Server em seu sistema.
+
+Crie um novo banco de dados com o nome oficina.
+
+Configure o usuário como "root" e deixe a senha em branco, ou defina uma senha de acordo com suas preferências, e atualize as informações no arquivo backend/db/conn.js.
+
+Configurando o Backend
+Navegue até a pasta backend.
+
+Instale as dependências necessárias executando o comando npm install.
+
+Após a instalação das dependências, inicie o servidor Node.js.
+
+Configurando o Frontend
+Navegue até a pasta frontend.
+
+Instale as dependências do cliente React executando o comando npm install.
+
+Após a instalação das dependências, inicie o frontend com o comando npm start.
+
+Agora, o projeto estará configurado e em execução em sua máquina local. Você pode acessá-lo no seu navegador digitando http://localhost:3000 no endereço. Certifique-se de que o servidor backend esteja em execução antes de iniciar o frontend.
