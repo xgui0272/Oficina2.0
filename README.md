@@ -1,5 +1,5 @@
 # Sistema de Cadastro de Orçamentos para Oficinas
-
+# Deployment: http://20.125.216.168:3000/
 Este projeto consiste em um sistema de cadastro de orçamentos destinado ao gerenciamento de informações em uma oficina. Ele oferece funcionalidades básicas de CRUD (Create, Read, Update, Delete), permitindo que os usuários registrem, pesquisem, editem e excluam orçamentos. Além disso, o sistema oferece recursos avançados, como pesquisa por nomes de clientes ou vendedores e uma pesquisa de intervalo de datas.
 
 ## Tecnologias Utilizadas
